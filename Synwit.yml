@@ -1,0 +1,51 @@
+name: Synwit(华芯微特)
+homepage: https://www.synwit.cn/
+pack_version: 2.0.4
+series:
+  #=============================================================================
+  #
+  # SWM181
+  #
+  #=============================================================================
+  - name: SWM181
+    core: Cortex-M0
+    flash_addr: 0x0000_0000
+    ram_addr: 0x2000_0000
+    algo: Synwit\SWM32_DFP\Flash\SWM181xC.FLM
+    ram_size: 16KB
+    chips:
+      - name: SWM181x8
+        flash_size: 64KB
+      - name: SWM181x9
+        flash_size: 96KB
+      - name: SWM181xB
+        flash_size: 120KB
+      - name: SWM181xC
+        flash_size: 248KB
+  #=============================================================================
+  #
+  # SWM211
+  #
+  #=============================================================================
+  - name: SWM211
+    core: Cortex-M0
+    flash_addr: 0x0000_0000
+    ram_addr: 0x2000_0000
+    algo: Synwit\SWM32_DFP\Flash\SWM211x8.FLM
+    chips:
+      - name: SWM211x6
+      - name: SWM211x8
+  #=============================================================================
+  #
+  # SWM341
+  #
+  #=============================================================================
+  - name: SWM341
+    core: Cortex-M33
+    flash_addr: 0x0000_0000
+    ram_addr: 0x2000_0000
+    chips:
+      - name: SWM341xE
+        ram_size: 64KB
+        flash_size: 512KB
+        algo: Synwit\SWM32_DFP\Flash\SWM341xE.FLM

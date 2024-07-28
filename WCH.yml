@@ -1,0 +1,24 @@
+name: WCH(沁恒)
+homepage: https://www.wch.cn/
+series:
+  #=============================================================================
+  #
+  # CH57X
+  #
+  #=============================================================================
+  - name: CH57X
+    homepage: https://www.wch.cn/products/CH579.html
+    pack_version: 1.1.0
+    core: Cortex-M0
+    algo: WCH\WCH57x_DFP\Flash\CH57x.FLM
+    chips:
+      - name: CH577
+        ram_size: 16KB
+        flash_size: 128KB
+      - name: CH578
+        ram_size: 32KB
+        flash_size: 160KB
+      - name: CH579
+        ram_size: 32KB
+        flash_size: 250KB
+

@@ -1,0 +1,16 @@
+name: RaspberryPI(树莓派基金会)
+homepage: https://www.raspberrypi.com/
+series:
+  #=============================================================================
+  #
+  # RP2040
+  #
+  #=============================================================================
+  - name: RP2040
+    homepage: https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html
+    core: Cortex-M0+
+    ram_size: 264KB
+    flash_size: 2MB
+    chips:
+      - name: RP2040_M0_0
+      - name: RP2040_M0_1

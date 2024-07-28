@@ -1,0 +1,19 @@
+name: LuatOS(合宙)
+homepage: https://luatos.com/
+series:
+  #=============================================================================
+  #
+  # AIR001
+  #
+  #=============================================================================
+  - name: AIR001
+    homepage: https://wiki.luatos.com/chips/air001/mcu.html
+    pack_version: 1.0.1
+    core: Cortex-M0+
+    flash_addr: 0x0800_0000
+    ram_addr: 0x2000_0000
+    chips:
+      - name: AIR001
+        flash_size: 32KB
+        ram_size: 4KB
+        algo: LuatOS\AIR001_DFP\Flash\AIR001xx_32.FLM

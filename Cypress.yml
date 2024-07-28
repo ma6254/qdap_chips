@@ -1,0 +1,12 @@
+name: Cypress(赛普拉斯半导体)
+homepage: https://www.infineon.com/cms/en/product/promopages/cypress-product-families/
+series:
+  #=============================================================================
+  #
+  # RP2040
+  #
+  #=============================================================================
+  - name: CY8C4014xxx
+    core: Cortex-M0
+    chips:
+      - name: CY8C4014xxx
