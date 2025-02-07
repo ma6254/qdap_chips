@@ -22,6 +22,19 @@ series:
   #
   #=============================================================================
   - name: STM32F1XX
+    pack_version: 2.4.0
+    core: Cortex-M3
+    flash_addr: 0x0800_0000
+    ram_addr: 0x2000_0000
+    chips:
+      - name: STM32F103C8
+        flash_size: 64KB
+        ram_size: 20KB
+        algo: ST\STM32F1xx_DFP\Flash\STM32F10x_128.FLM
+      - name: STM32F103CB
+        flash_size: 128KB
+        ram_size: 20KB
+        algo: ST\STM32F1xx_DFP\Flash\STM32F10x_128.FLM
   #=============================================================================
   #
   # STM32F4XX
